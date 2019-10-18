@@ -1,0 +1,37 @@
+编程代码：
+//定义参数
+Parameter r,epsolon,M;
+//定义数据集
+Variable t,Pc,Q;
+//定义微分方程模型
+ODEFunction Q'=r*Q*(M-Q)*(1+epsolon*Pc)+Q* epsolon*Pc;
+Data;
+年份(t)	票价较上年的变动百分比(Pc)		人次(亿人)
+2011		 0.004646672				3.54321613
+2012		 0.017960295				4.65974288
+2013 		-0.021823576				6.16923334
+2014		-0.031632808				8.37113814
+2015		-0.062263124				12.61927966
+2016		0.010770136				13.74641739
+2017		-0.03064					16.23746183
+2018		0.060209955				17.18209917
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ headfile   1stOpt File
+Version 6
+ sheetlistbox$   CodeSheet1
+CodeSheet2
+CodeSheet3
+ sheetlistboxwidth   72
