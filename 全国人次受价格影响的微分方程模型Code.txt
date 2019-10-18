@@ -27,11 +27,3 @@ Data;
 
 
 
-
-
- headfile   1stOpt File
-Version 6
- sheetlistbox$   CodeSheet1
-CodeSheet2
-CodeSheet3
- sheetlistboxwidth   72
